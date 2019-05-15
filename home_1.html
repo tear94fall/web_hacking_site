@@ -1,0 +1,93 @@
+<!doctype html>
+<meta charset="utf-8">
+<html>
+<head>
+<link rel="stylesheet" href="home_sty.css">
+<script src=frcnt_scroll.js></script>
+</head>
+<body>
+<div id="middle"><!-- grid -->
+	<div id="slidebox">
+		<ul id="slider">
+			<li>
+				<img src="banner1.jpg"/>
+			</li>
+			<li>
+				<img src="banner2.jpg"/>
+			</li>
+			<li>
+				<img src="banner3.jpg"/>
+			</li>
+		</ul>
+	</div>
+  <form>
+    <div id="login_box">
+      <h2>로그인</h2>
+      <ul id="input_button">
+        <li id="id_pass">
+          <ul>
+            <li>
+              <span>ID</span>
+              <input type="text">
+            </li> <!-- id -->
+            <li id="pass">
+              <span>PW</span>
+              <input type="password">
+            </li> <!-- pass -->
+          </ul>
+        </li>
+        <li id="login_btn">
+          <button>로그인</button>
+        </li>
+      </ul>
+      <ul id="btns">
+        <li><a href="#">아이디 찾기</a></li>
+        <li><a href="#">비밀번호 찾기</a></li>
+      </ul>
+    </div> <!-- login_box -->
+  </form>
+</div><!-- grid -->
+<div id="bottom">
+  <div id="freeboard">
+    <div class="frttl">자유게시판</div>
+    <div class="frcnt">
+			<ul id="scroll">
+				<li><a href="#">1번째 블라</a></li>
+				<li><a href="#">2번째 블라</a></li>
+				<li><a href="#">3번째 블라</a></li>
+			</ul>
+			</div>
+  </div>
+  <div id="notice">
+    <h3>공지사항</h3>
+    <p>본 사이트를 이용하시는데 필요한 정보<br>
+      1. <a href="#">회원가입</a>을 통해 회원을 등록해주세요.<br>
+      2. 이후 <a href="tutorial.html">튜토리얼</a>을 먼저 수행해주세요.<br>
+      <span>- 튜토리얼 미수행시 포인트가 적용되지 않습니다.</span><br>
+      3. 제시된 문제를 해결하시면 됩니다.<br>
+    </p>
+  </div>
+	<div id="rank">
+		<span class="rank_title">포인트 순위</span>
+		<ol>
+			<li>&nbsp;임준섭</li>
+			<li>&nbsp;김아무개</li>
+			<li>&nbsp;나창원</li>
+			<li>&nbsp;박아무개</li>
+			<li>&nbsp;어느누구</li>
+			<li>&nbsp;어느누구</li>
+			<li>&nbsp;어느누구</li>
+			<li>&nbsp;어느누구</li>
+			<li>&nbsp;어느누구</li>
+			<li>&nbsp;어느누구</li>
+		</ol>
+	</div>
+</div>
+<script type="text/javascript">
+var real_search_keyword = new textScroll('scroll'); // 스크롤링 하고자하는 ul 엘리먼트의 id값을 인자로 넣습니다
+real_search_keyword.name = "real_search_keyword"; // 인스턴스 네임을 등록합니다
+real_search_keyword.start(); // 스크롤링 시작
+</script>
+<script src=home_script.js></script>
+</body>
+</html>

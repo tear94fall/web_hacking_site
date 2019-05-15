@@ -1,0 +1,327 @@
+* {
+  padding:0;
+  margin:0;
+}
+body {
+  display : inline;
+}
+/*        최상단 메뉴        */
+.main {
+  text-align: left;
+  margin : 12px 0 20px 22px;
+  display : inline-block;
+}
+.top {
+  display: inline-block;
+}
+.top a {
+  text-decoration: none;
+  color : rgb(80,155,232);
+}
+.top_sub {
+  margin-top: 5px;
+  display: inline-block;
+  float : right;
+}
+.search_txt {
+  padding : 0;
+  margin: 0;
+}
+.search_btn {
+  padding : 0 3px 3px 3px;
+  margin : 3px 5px 3px 5px;
+  background-color: rgba(109,109,109, 0.7);
+  color : white;
+  border-style: none;
+}
+.top_sub span {
+  border-left: 1px solid gray;
+  padding-left: 5px;
+}
+.top_sub a {
+  text-decoration: none;
+  color : black;
+}
+/*        드롭박스 메뉴        */
+.menubar{
+border:none;
+border:0px;
+margin:0px;
+padding:0px;
+font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+display: inline;
+}
+
+.menubar ul{
+background: rgb(109,109,109);
+height:50px;
+list-style:none;
+margin:0;
+padding:0;
+}
+
+.menubar li{
+float:left;
+padding:0px;
+}
+
+.menubar li a{
+background: rgb(109,109,109);
+color:#cccccc;
+display:block;
+font-weight:normal;
+line-height:50px;
+margin:0px;
+padding:0px 25px;
+text-align:center;
+text-decoration:none;
+}
+
+.menubar li a:hover, .menubar ul li:hover a{
+background: rgb(71,71,71);
+color:#FFFFFF;
+text-decoration:none;
+}
+
+.menubar li ul{
+background: rgb(109,109,109);
+display:none; /* 평상시에는 드랍메뉴가 안보이게 하기 */
+height:auto;
+padding:0px;
+margin:0px;
+border:0px;
+position:absolute;
+width:200px;
+z-index:200;
+/*top:1em;
+/*left:0;*/
+}
+
+.menubar li:hover ul{
+display:block; /* 마우스 커서 올리면 드랍메뉴 보이게 하기 */
+}
+
+.menubar li li {
+background: rgb(109,109,109);
+display:block;
+float:none;
+margin:0px;
+padding:0px;
+width:200px;
+}
+
+.menubar li:hover li a{
+background:none;
+}
+
+.menubar li ul a{
+display:block;
+height:50px;
+font-size:12px;
+font-style:normal;
+margin:0px;
+padding:0px 10px 0px 15px;
+text-align:left;
+}
+
+.menubar li ul a:hover, .menubar li ul li:hover a{
+background: rgb(71,71,71);
+border:0px;
+color:#ffffff;
+text-decoration:none;
+}
+
+.menubar p{
+clear:left;
+}
+/*        슬라이드  배너       */
+#slidebox {
+  display: inline-block;
+  position:relative;
+  width:1230px;
+  height:300px;
+  overflow:hidden;
+  white-space:nowrap;
+  margin : 3% auto;
+}
+#slidebox ul#slider {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+#slidebox ul li {
+  position:absolute;
+  width:1230px;
+  height:300px;
+}
+#slidebox ul li img {
+  width:1230px;
+  height:300px;
+}
+/*        로그인 폼        */
+@media (max-width:1650px) {
+  #input_button, h2, #btns {
+   margin-left: 3%;
+  }
+  #slidebox, #slidebox ul li, #slidebox ul li img {
+    display: block;
+    width: 100%;
+    height: 300px;
+  }
+}
+#input_button, #input_button li {
+    list-style-type: none;
+}
+form {
+  font-family:"맑은고딕", "돋움";
+  font-size:12px;
+  color:444444;
+  display:inline-block;
+}
+#login_box {
+  text-align: center;
+  width:340px;
+  height:200px;
+  margin: 50px auto;
+  padding: 30px 0 0 0;
+}
+h2 {
+    font-family:"Arial";
+    margin-bottom:15px;
+}
+#login_box input {
+    margin : 5px;
+    width:100px;
+    height:18px;
+}
+#id_pass, #login_btn {
+  display: inline-block;
+  vertical-align: top;
+}
+#id_pass span {
+    display: inline-block;
+    width:20px;
+}
+#pass {
+    margin-top:3px;
+}
+#login_btn button {
+    margin-top:10px;
+    margin-left:5px;
+    padding:16px 12px;
+    background-color: rgba(109,109,109, 0.7);
+    color : white;
+    border-style: none;
+}
+#btns {
+    margin:32px 0 0 0;
+    text-decoration:none;
+}
+#btns li {
+    margin:16px;
+    display:inline;
+}
+#btns li a {
+  text-decoration: none;
+  color:gray;
+}
+
+#middle {
+  display : grid;
+  grid-template-columns: 67.5% 1fr;
+  grid-column-gap: 1.5%;
+  margin-left: 3%;
+}
+/* 자게, 공지, 랭킹 레이아웃 */
+#bottom {
+  display: grid;
+  grid-column-gap: 3.8%;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+/* 자유게시판 미리보기 */
+#freeboard {
+  display : grid;
+  grid-row : 1;
+  grid-column: 1/3;
+  grid-template-columns: 150px 1fr;
+  text-align: center;
+  padding-top : 5px;
+  border : 1px solid gray;
+  height: 30px;
+}
+
+.frttl {
+  padding : 0;
+  margin : 0;
+  height: 25px;
+}
+
+.frcnt {
+  padding : 0 0 0 10%;
+  margin : 0;
+  height : 25px;
+}
+
+#scroll {
+  height: 25px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#scroll li {
+  height: 25px;
+  margin: 0px 5px;
+}
+.frcnt ul {
+  list-style-type: none;
+}
+.frcnt a {
+  color : gray;
+  text-decoration: none;
+}
+
+/* 공지사항 */
+#notice {
+  grid-column: 1/3;
+  grid-row : 1/3;
+  border : 1px solid gray;
+  padding : 25px 20px 20px 25px;
+  margin-top : 40px;
+}
+
+#notice h3 {
+  padding-bottom: 10px;
+}
+
+#notice a {
+  text-decoration: none;
+  color : gray;
+}
+
+#notice span {
+  color : rgb(200,60,40);
+}
+
+/* 랭킹 */
+#rank {
+  grid-row : 1/3;
+  border : 1px solid red;
+}
+.rank_title {
+  padding-top : 8px;
+  display: block;
+  color : red;
+  text-align: center;
+}
+#rank ol {
+  padding-left: 18%;
+  padding-bottom : 20px;
+}
+
+#rank li {
+  padding-top: 7px;
+}

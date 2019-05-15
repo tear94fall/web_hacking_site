@@ -1,0 +1,119 @@
+/*  문제풀기  */
+
+#all_ques {
+  display: grid;
+  text-align: center;
+  grid-gap: 50px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+}
+
+#all_ques span {
+  font-size: 20px;
+  position: relative;
+  top : 45%;
+}
+
+.top_msg {
+  font-size: 34px;
+  font-family: 'Black Han Sans', sans-serif;
+  padding : 15px 15px 30px 15px;
+  text-align: center;
+}
+.top_msg span {
+  color : rgb(255,10,150);
+}
+
+.ques_1 {
+  cursor: pointer;
+  width : 270px;
+  height : 270px;
+  border : 1px solid red;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.ques_2 {
+  cursor: pointer;
+  width : 270px;
+  height : 270px;
+  border : 1px solid black;
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.ques_3 {
+  cursor: pointer;
+  width : 270px;
+  height : 270px;
+  border : 1px solid blue;
+  grid-column: 2 ;
+  grid-row: 2;
+}
+
+.ques_4 {
+  cursor: pointer;
+  width : 270px;
+  height : 270px;
+  border : 1px solid green;
+  grid-column: 3 ;
+  grid-row: 2;
+}
+
+/*  해설  */
+#all_cmnt {
+  display: grid;
+  text-align: center;
+  grid-gap: 50px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+}
+
+#all_cmnt span {
+  font-size: 20px;
+  position: relative;
+  top : 45%;
+}
+
+.top_msg {
+  font-size: 34px;
+  font-family: 'Black Han Sans', sans-serif;
+  padding : 15px 15px 30px 15px;
+  text-align: center;
+}
+
+.cmnt_1 {
+  cursor: pointer;
+  width : 270px;
+  height : 270px;
+  border : 1px solid red;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.cmnt_2 {
+  cursor: pointer;
+  width : 270px;
+  height : 270px;
+  border : 1px solid black;
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.cmnt_3 {
+  cursor: pointer;
+  width : 270px;
+  height : 270px;
+  border : 1px solid blue;
+  grid-column: 2 ;
+  grid-row: 2;
+}
+
+.cmnt_4 {
+  cursor: pointer;
+  width : 270px;
+  height : 270px;
+  border : 1px solid green;
+  grid-column: 3 ;
+  grid-row: 2;
+}

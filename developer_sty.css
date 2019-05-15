@@ -1,0 +1,24 @@
+
+#lim, #na {
+  border: 1px solid gray;
+  display: inline-block;
+  margin : 0 20px;
+  padding : 20px 20px 0 20px;
+  box-shadow: 0px 5px 3px gray;
+}
+
+#lim span, #na span {
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 25px;
+}
+#lim p, #na p {
+  padding: 0;
+  margin: 0;
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 20px;
+}
+
+#intro_box {
+  text-align: center;
+  margin: 8% 0 0 0;
+}

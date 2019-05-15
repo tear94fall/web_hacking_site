@@ -12,18 +12,18 @@
   </div>
     <h2 class="login_title">Login</h2>
     <div id="login_box">
-      <form>
+      <form method="post" action="login_check.php">
         <span>아이디와 비밀번호를 입력하세요.</span>
         <ul id="input_button">
           <li id="id_pass">
             <ul>
               <li>
                 <div class="tag">아이디</div>
-                <input type="text" placeholder="아이디">
+                <input type="text" name="id" placeholder="아이디">
               </li> <!-- id -->
               <li id="pass">
                 <div class="tag">비밀번호</div>
-                <input type="password" placeholder="비밀번호">
+                <input type="password" name="password" placeholder="비밀번호">
               </li> <!-- pass -->
             </ul>
           </li>

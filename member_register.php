@@ -5,6 +5,15 @@
     <title>회원가입</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <style>
+        table {
+            width: 100%;
+            border: 1px solid #444444;
+        }
+
+        th, td {
+            border: 1px solid #444444;
+        }
+
         .container {
             margin-top: 20px;
         }
@@ -17,18 +26,17 @@
     <script>
         angular.module('form-demo-app', [])
             .controller('mainCtrl', ['$scope', function ($scope) {
-
             }]);
     </script>
 </head>
-<body ng-controller="mainCtrl">
+<body>
 <div class="container" id="wrap">
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
             <form name="signUpForm" class="form" role="form">
                 <br><br>
                 <legend>회원가입</legend>
-                <h4>회원 정보를 입력해주세요.</h4>
+                <h5>회원 정보를 입력해주세요.</h5>
                 <div class="row">
                     <div class="col-xs-6 col-md-6">
                         <input type="text" name="firstname" class="form-control input-lg" ng-model="user.firstName"
@@ -66,10 +74,12 @@
                 <br>
                 <table>
                     <tr>
-                            <button class="btn btn-lg btn-primary btn-block signup-btn" type="submit" onclick="location.href='member_insert.php'">회원가입</button>
-                    </tr>
-                    <tr>
-                            <button class="btn btn-lg btn-primary btn-block signup-btn" type="submit" onclick="location.href='index.php'">취소</button>
+                        <button class="btn btn-lg btn-primary btn-block signup-btn" type="submit"
+                                onclick="location.href='member_insert.php'">회원가입
+                        </button>
+                        <button class="btn btn-lg btn-primary btn-block signup-btn" type="submit"
+                                onclick="location.href='index.php'">취소
+                        </button>
                     </tr>
                 </table>
             </form>

@@ -12,6 +12,7 @@ body {
   display : inline-block;
 }
 .top {
+  margin-left : 2%;
   display: inline-block;
 }
 .top a {
@@ -19,7 +20,8 @@ body {
   color : rgb(80,155,232);
 }
 .top_sub {
-  margin-top: 5px;
+  margin-top: 25px;
+  margin-right : 2%;
   display: inline-block;
   float : right;
 }

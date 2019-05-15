@@ -10,7 +10,7 @@
 <body>
 <script language="JavaScript">
 var count=0;
-var target_count = makeRandom(10,20);
+var target_count = makeRandom(5,10);
 
 function button_onclick(){
     count++;
@@ -35,15 +35,21 @@ function makeRandom(min, max){
 
       if (!$userid)
       {
-          echo "<td><a href='login_home.html'  target='_self'>로그인</a></td>";
+          echo "<td><a href='login_home.html'  target='_self'>로그인</a></td>&nbsp;&nbsp;&nbsp;";
       }
       else
       {
-          echo "<td><a href='logoff.php'  target='_self'>로그아웃</a></td>";
+          echo "<td><a href='logoff.php'  target='_self'>로그아웃</a></td>&nbsp;&nbsp;&nbsp;";
+      }
+      if (!$userid)
+      {
+          echo "<td><a href='member_register.php'>회원가입</a></td>&nbsp;&nbsp;&nbsp;";
+      }
+      else
+      {
+          echo "<td><a href='my_account_info.php'>내정보보기</a></td>&nbsp;&nbsp;&nbsp;";
       }
       ?>
-      <span><a href="member_register.php">회원가입</a></span>
-      <span><a href="#">내정보보기</a></span>
       <input type="text" class="search_txt"><button class="search_btn">검색</button>
   </div>
   <div class="menubar">

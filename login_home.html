@@ -3,9 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>로그인</title>
-    <link rel="stylesheet" href="login_sty.css">
+    <link rel="stylesheet" href="css/login_sty.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
   </head>
   <body>
+  <div class="top">
+    <h1 class="main"><a href="index.html">Security</a></h1>
+  </div>
     <h2 class="login_title">Login</h2>
     <div id="login_box">
       <form>
@@ -14,12 +18,19 @@
           <li id="id_pass">
             <ul>
               <li>
+                <div class="tag">아이디</div>
                 <input type="text" placeholder="아이디">
               </li> <!-- id -->
               <li id="pass">
+                <div class="tag">비밀번호</div>
                 <input type="password" placeholder="비밀번호">
               </li> <!-- pass -->
             </ul>
+          </li>
+          <li id="login_help">
+            도움말
+            <button style="cursor:pointer" onmousedown="alert();">
+              <img src="image/help.png"  style="width:20px; height:20px;"></button>
           </li>
           <li id="login_btn">
             <button style="cursor:pointer">로그인</button>
@@ -27,9 +38,18 @@
           <li id="find_id">
             <a href="#">아이디 찾기</a>
             <a href="#">비밀번호 찾기</a>
+            <a href="#">회원가입</a>
           </li>
         </ul>
       </form>
     </div> <!-- login_box -->
+  <script type="text/javascript">
+    function alert() {
+      Swal.fire(
+              '도움이 필요하신가요?',
+              '뭐라고 쓰죠?',
+              'question'
+      )    }
+  </script>
   </body>
 </html>

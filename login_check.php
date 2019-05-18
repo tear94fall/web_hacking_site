@@ -46,10 +46,18 @@ else
         session_start();
         $_SESSION['userid'] = $userid;
 
+
+
         // 새로 추가
+        $last_url = $_SERVER["HTTP_REFERER"];
+        $last_url_array = explode( '/', $last_url );
+        $last_page = $last_url_array[count($last_url_array)-1];
 
-
-        echo "<script>location.href='index.php';</script>";
+        if($last_page=='home_1.php'){
+            echo "<script>location.href='home_1.php';</script>";
+        }else if($last_page=='login_home.html'){
+            echo("<script>location.replace('index.php');</script>"); 
+        }
     }
 }
 

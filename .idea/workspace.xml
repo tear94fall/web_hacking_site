@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3187fc85-51dc-490a-a3f8-e854eaa1f793" name="Default Changelist" comment="" />
+    <list default="true" id="3187fc85-51dc-490a-a3f8-e854eaa1f793" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +40,7 @@
         <option value="$PROJECT_DIR$/login_home.html" />
         <option value="$PROJECT_DIR$/css/login_sty.css" />
         <option value="$PROJECT_DIR$/hack_issue.html" />
+        <option value="$PROJECT_DIR$/test" />
       </list>
     </option>
   </component>
@@ -52,7 +56,17 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="web_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -84,6 +98,7 @@
       <workItem from="1557907575910" duration="6980000" />
       <workItem from="1558310807205" duration="1202000" />
       <workItem from="1558313055329" duration="660000" />
+      <workItem from="1558313717934" duration="922000" />
     </task>
     <task id="LOCAL-00001" summary="commit test">
       <created>1557907050004</created>
@@ -113,16 +128,23 @@
       <option name="project" value="LOCAL" />
       <updated>1558313274202</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test">
+      <created>1558313819915</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558313819915</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9338000" />
+    <option name="totallyTimeSpent" value="10260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="408" y="114" width="1412" height="845" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21301775" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21597633" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -173,7 +195,8 @@
     <MESSAGE value="경로 추가, 로그인 디자인 변경" />
     <MESSAGE value="PR테스트용 커밋" />
     <MESSAGE value="나창원" />
-    <option name="LAST_COMMIT_MESSAGE" value="나창원" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/question_home.html">
@@ -246,7 +269,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

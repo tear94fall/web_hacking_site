@@ -75,3 +75,20 @@ form {
   margin : 0 20px;
   color : gray;
 }
+
+/* 회원가입 폼 */
+#member_btn button {
+  background-color: rgba(109,109,109, 0.5);
+  color : white;
+  border-style: none;
+  margin-top:40px;
+  padding:20px 172px 20px 172px;
+  font-size : 17px;
+}
+
+.member_title {
+  font-size : 35px;
+  text-align: center;
+  margin-top : 2%;
+  margin-bottom : 20px;
+}

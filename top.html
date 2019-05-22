@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/home_sty.css">
+  </head>
+  <body>
+    <div class="top">
+      <h1 class="main"><a href="index.html">Security</a></h1>
+    </div>
+    <div class="top_sub">
+        <a href="login_home.html">로그인</a>
+        <span><a href="#">회원가입</a></span>
+        <span><a href="#">내정보보기</a></span>
+        <input type="text" class="search_txt"><button class="search_btn">검색</button>
+    </div>
+    <div class="menubar">
+  <ul>
+   <li><a href="index.html">홈</a></li>
+   <li><a href="hack_issue.html" target="home_re">해킹 보안 이슈</a></li>
+   <li><a href="tutorial.html" target="home_re">튜토리얼</a></li>
+   <li><a href="question_home.html" target="home_re" id="current">문제풀기</a>
+    <ul>
+       <li><a href="question_1.html" target="home_re">1</a></li>
+       <li><a href="question_2.html" target="home_re">2</a></li>
+       <li><a href="question_3.html" target="home_re">3</a></li>
+       <li><a href="question_4.html" target="home_re">4</a></li>
+      </ul>
+   </li>
+   <li><a href="comment_home.html" target="home_re" id="current">해설</a>
+    <ul>
+      <li><a href="comment_1.html" target="home_re">1</a></li>
+      <li><a href="comment_2.html" target="home_re">2</a></li>
+      <li><a href="comment_3.html" target="home_re">3</a></li>
+      <li><a href="comment_4.html" target="home_re">4</a></li>
+    </ul>
+   </li>
+  <li><a href="developer.html" target="home_re">개발자들</a></li>
+  </ul>
+  </div>
+  <div id="middle"><!-- grid -->
+  	<div id="slidebox">
+  		<ul id="slider">
+  			<li>
+  				<img src="image/banner1.jpg"/>
+  			</li>
+  			<li>
+  				<img src="image/banner2.jpg"/>
+  			</li>
+  			<li>
+  				<img src="image/banner3.jpg"/>
+  			</li>
+  		</ul>
+  	</div>
+    <form>
+      <div id="login_box">
+        <h2>로그인</h2>
+        <ul id="input_button">
+          <li id="id_pass">
+            <ul>
+              <li>
+                <span>ID</span>
+                <input type="text">
+              </li> <!-- id -->
+              <li id="pass">
+                <span>PW</span>
+                <input type="password">
+              </li> <!-- pass -->
+            </ul>
+          </li>
+          <li id="login_btn">
+            <button>로그인</button>
+          </li>
+        </ul>
+        <ul id="btns">
+          <li><a href="#">아이디 찾기</a></li>
+          <li><a href="#">비밀번호 찾기</a></li>
+        </ul>
+      </div> <!-- login_box -->
+    </form>
+  </div><!-- grid -->
+  <script src=js/home_script.js></script>
+  </body>
+</html>

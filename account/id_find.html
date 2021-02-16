@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>아이디 찾기</title>
+    <link rel="stylesheet" href="../css/login_sty.css">
+    <link rel="stylesheet" href="../css/top_level.css">
+    <script language="javascript">
+      function show_check() {
+        window.open("view_id_find.html", "아이디", "width=600, height=200, left=300, top=300"); }
+</script>
+    <style>
+        #find_btn button {
+            background-color: rgba(109,109,109, 0.5);
+            color : white;
+            border-style: none;
+            margin-top:40px;
+            padding:20px 195px 20px 180px;
+            font-size : 17px;
+        }
+    </style>
+
+</head>
+<body>
+<div class="logo">
+    <h1 class="main_"><a href="../index.php">Security</a></h1>
+</div>
+<hr>
+<h2 class="login_title">아이디 찾기</h2>
+<div id="login_box">
+    <form method="post" action="id_find.php">
+        <span>아이디 찾기에 필요한 정보를 기입해주세요.</span>
+        <ul id="input_button">
+            <li id="id_pass">
+                <ul>
+                    <li>
+                        <div class="tag">이름</div>
+                        <input type="text" name="username" placeholder="이름">
+                    </li> <!-- id -->
+                    <li id="pass">
+                        <div class="tag">이메일</div>
+                        <input type="email" name="email" placeholder="your-email@co.kr">
+                    </li> <!-- email -->
+                </ul>
+            </li>
+            <li id="find_btn">
+                <button style="cursor:pointer">확인</button>
+            </li>
+        </ul>
+    </form>
+</div>
+</body>
+</html>

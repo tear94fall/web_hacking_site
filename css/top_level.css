@@ -1,0 +1,31 @@
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        display: inline;
+    }
+
+    /*        최상단 메뉴        */
+    /* 이 로고 사용을 위해 html 맨 위에 추가해야할 부분
+    <div class="logo">
+        <h1 class="main_"><a href="index.html">Security</a></h1>
+    </div>
+    */
+
+    .main_ {
+        text-align: left;
+        margin: 12px 0 20px 22px;
+        display: inline-block;
+    }
+
+    .logo {
+        margin-left: 2%;
+        display: inline-block;
+    }
+
+    .logo a {
+        text-decoration: none;
+        color: rgb(80, 155, 232);
+    }

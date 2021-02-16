@@ -1,0 +1,60 @@
+/*  문제풀기  */
+* {
+  margin : 0;
+  padding : 0;
+}
+
+#all_ques {
+  text-align: center;
+}
+
+#all_ques span {
+  font-size: 20px;
+  position: relative;
+  top: 25%;
+}
+#all_ques div {
+  display: inline-block;
+  margin : 20px auto;
+  width: 250px;
+  height: 60px;
+  border : 1px solid rgb(109,109,109);
+}
+#all_ques div:hover {
+  background-color: rgba(109,109,109,0.2);
+  cursor: pointer;
+}
+
+.top_msg {
+  font-size: 34px;
+  font-family: 'Black Han Sans', sans-serif;
+  text-align: center;
+  margin-top : 1.5%;
+}
+
+.top_msg span {
+  color : rgb(255,70,150);
+}
+
+
+/*  해설  */
+#all_cmnt {
+  text-align: center;
+}
+
+#all_cmnt span {
+  font-size: 20px;
+  position: relative;
+  top: 25%;
+}
+#all_cmnt div {
+  display: inline-block;
+  margin : 20px auto;
+  width: 250px;
+  height: 60px;
+  border : 1px solid rgb(109,109,109);
+}
+#all_cmnt div:hover {
+  background-color: rgba(109,109,109,0.2);
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* security */
+.top {
+    padding: 20px 0 30px 30px;
+    border-bottom: 20px solid rgb(109, 109, 109);
+}
+
+.top a {
+    text-decoration: none;
+    color: rgb(80, 155, 232);
+}
